@@ -1,0 +1,23 @@
+#include "stdbool.h"
+#include <stdio.h>
+#include <unistd.h>
+
+bool mx_isspace(int c) {
+    switch(c) {
+    case ' ':
+        return true;
+    case '\t':
+        return true;
+    case '\n':
+        return true;
+    case '\v':
+        return true;
+    case '\f':
+        return true;
+    case '\r':
+        return true;
+    default:
+        return false;
+    }
+}
+

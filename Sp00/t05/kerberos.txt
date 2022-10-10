@@ -1,0 +1,3 @@
+klist
+kinit akamyshenk
+kdestroy -A
